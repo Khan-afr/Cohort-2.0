@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{ 
+    /* border: 5px solid rgb(22, 189, 3); */
+    width: 500px;
+    padding: 20px;
+    background-color: rgb(12, 87, 133);
+    border-radius: 20px;
+    color: rgb(244, 242, 242);
+    
+}
+
+.card p{
+    font-size: 23px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin: 15px 10px;
+}
+
+#divout{
+    height: 20px;
+    width:470px;
+    background-color: silver;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+#divin{
+    height: 20px;
+    font-weight: 600;
+    width:0%;
+    background-color: rgba(9, 135, 4, 0.91);
+    border-radius: 20px;
+}
+
+#but{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+button{
+    padding: 20px 20px;
+    font-size: 23px;
+    background-color: lightgreen;
+    border-radius: 10px;
+    border: none;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+button:hover{     
+    cursor: pointer;
+}
+button:active{
+    scale: 0.95;
+}
+
+h2{
+    font-size: 40px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
